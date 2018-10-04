@@ -1,0 +1,175 @@
+/* CSS CLASES */
+
+* {
+  box-sizing: border-box;
+  color: #444;
+}
+
+body {
+  max-width: 100%;
+  background-color: #ededed;
+  margin: 0;
+  font-size: 18px;
+  font-family: sans-serif;
+
+}
+
+h2 {
+  color: #f0563e;
+  font-size: 1,5rem;
+}
+
+h4 {
+  margin: 0;
+}
+
+p {
+  color: #666;
+}
+
+li p {
+  margin: 5px;
+}
+
+.cv {
+  max-width: 70%;
+  margin: 25vh auto;
+  padding: 4vh;
+  background-color: #fff;
+}
+
+.header {
+  text-align: center;
+  padding: auto;
+  border-bottom: 0.3rem solid #ededed;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  padding: 0 5%;
+}
+
+.foto {
+  height: 280px;
+  border: 0.5em solid #ededed;
+  border-radius: 50%;
+  margin-top: -18vh;
+}
+
+.educacion {
+  background-color: #ededed;
+  padding: 5px 10px 1px 10px;
+  margin-bottom: 5px;
+}
+
+/* Responsive grid */
+
+.row {
+  clear: both;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10,
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10 {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* VISTA CELULAR */
+
+@media (max-width: 480px) {
+  .col-sm-1 {
+    width: 10%;
+  }
+
+  .col-sm-2 {
+    width: 20%;
+  }
+
+  .col-sm-3 {
+    width: 30%;
+  }
+
+  .col-sm-4 {
+    width: 40%;
+  }
+
+  .col-sm-5 {
+    width: 50%;
+  }
+
+  .col-sm-6 {
+    width: 60%;
+  }
+
+  .col-sm-7 {
+    width: 70%;
+  }
+
+  .col-sm-8 {
+    width: 80%;
+  }
+
+  .col-sm-9 {
+    width: 90%;
+  }
+
+  .col-sm-10 {
+    width: 100%;
+  }
+}
+
+/* PANTALLA COMPLETA */
+
+@media (min-width: 481px) {
+
+  .col-md-1 {
+    width: 10%;
+  }
+
+  .col-md-2 {
+    width: 20%;
+  }
+
+  .col-md-offset-2 {
+    margin-left: 20%;
+  }
+
+  .col-md-3 {
+    width: 30%;
+  }
+
+  .col-md-offset-3 {
+    margin-left: 30%;
+  }
+
+  .col-md-4 {
+    width: 40%;
+  }
+
+  .col-md-5 {
+    width: 50%;
+  }
+
+  .col-md-6 {
+    width: 60%;
+  }
+
+  .col-md-7 {
+    width: 70%;
+  }
+
+  .col-md-8 {
+    width: 80%;
+  }
+
+  .col-md-9 {
+    width: 90%;
+  }
+
+  .col-md-10 {
+    width: 100%;
+  }
+}
